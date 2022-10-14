@@ -1,0 +1,43 @@
+.banner{
+  height: 490px;
+  margin: auto;
+}
+.event_Pages img{
+  width: 100%;
+}
+.mid_List{
+  display: flex;
+  position: relative;
+}
+.mid_List ul{
+  position: absolute;
+  right: 100px
+}
+.mid_List li:nth-child(1){
+  background-color: #ffce32;
+  width: 300px;
+  height: 80px;
+  border-radius: 30px 0 0 0;
+  float: left;
+  margin-top: -30px;
+  text-align: center;
+}
+.find_Store{
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 26px;
+}
+.mid_List li:nth-child(2){
+  background-color: #009223;
+  width: 300px;
+  height: 80px;
+  border-radius: 0 0 30px 0;
+  float: left;
+  margin-top: -30px;
+  text-align: center;
+}
+.question_Store{
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 26px;
+}
